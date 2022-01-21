@@ -160,7 +160,7 @@ export const PostModal = ({
               })}
           </div>
 
-          {step === 3 && <h1 className="text-center mt-6">レビュータグ</h1>}
+          {step === 3 && <h1 className="text-center mt-6">インプレッションタグ</h1>}
           {step === 3 && (
             <div className="justify-center">
               <CheckedList

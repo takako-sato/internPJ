@@ -106,7 +106,7 @@ export default function Index() {
 
       {open && step === 2 && (
         <PostModal
-          title={"レビュータグを選んでください"}
+          title={"インプレッションタグを選んでください"}
           onClick={onClick}
           step={step}
           tags={[
@@ -167,7 +167,7 @@ export default function Index() {
               </PersTag>
             ))}
           </div>
-          <h3 className="text-lg font-bold my-1">レビュータグ</h3>
+          <h3 className="text-lg font-bold my-1">インプレッションタグ</h3>
           <div>
             {revTagData.map((res) => (
               <RevTag
@@ -191,13 +191,7 @@ export default function Index() {
             )}
           </div>
         </div>
-        <div className="flex mt-10">
-          <div className="w-1/3">
-            <div className={style.starData}>
-              <h3 className="text-lg font-bold my-1">星評価</h3>
-              <p>⭐️⭐️⭐️⭐️⭐️</p>
-            </div>
-          </div>
+        <div className="mt-10">
           <div className="w-8/12">
             <h3 className="text-lg font-bold my-1">
               {clickedTag ? (

@@ -1,0 +1,43 @@
+.persTag {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #d2e8ea;
+  border-radius: 40px;
+  color: #505050;
+  @apply cursor-pointer;
+}
+
+.revTag {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #e8cbcb;
+  border-radius: 40px;
+  color: #505050;
+  @apply cursor-pointer;
+}
+
+.reviewData {
+  flex-grow: 2;
+  margin: 10px;
+  padding: 10px;
+}
+.balloon {
+  @apply relative;
+  @apply bg-pink-55;
+  @apply mx-16;
+  @apply rounded-lg;
+  @apply p-2;
+}
+.balloon::before {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: -15px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #f9eded;
+  -webkit-transform: rotate(125deg);
+  transform: rotate(120deg);
+}

@@ -1,0 +1,15 @@
+.all {
+  margin: 2em;
+}
+
+.topContent {
+  display: flex;
+  @apply my-5;
+}
+
+.starData {
+  flex-grow: 1;
+  background-color: #ebebeb;
+  margin: 10px;
+  padding: 10px;
+}

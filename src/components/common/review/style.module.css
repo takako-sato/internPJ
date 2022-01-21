@@ -1,0 +1,7 @@
+.comment {
+  @apply pl-10;
+  @apply py-5;
+}
+.comment:nth-child(even) {
+  background-color: white;
+}
